@@ -63,7 +63,7 @@ export default {
     // module options
     sockets: [{
       name: 'main',
-      url: 'http://localhost:8080'
+      url: process.env.API_URL || 'http://localhost:8080'
     }]
   },
 
